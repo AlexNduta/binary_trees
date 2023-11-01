@@ -44,4 +44,9 @@ A function that checks if a node is a leaf:
     -if node is NULL, return 0
 
 
-
+## task 5
+A function that checks if a given node is root
+    -prototype `int binary_tree_root(const binary_tree_t *node)`
+    -the node is the pointer to the node to check
+    -return 1 if node is a root, otherwise, return  0
+    -if the node is NULL, return 0
