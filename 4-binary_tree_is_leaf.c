@@ -22,13 +22,13 @@ else
 {
 if (node->left != NULL && binary_tree_is_leaf(node->left))
 {
-    return (1);
+return (1);
 } else if (node->right != NULL && binary_tree_is_leaf(node->right))
 {
-    return (1);
+return (1);
 }else
 {
-    return (0);
+return (0);
 }
 }
 }
