@@ -33,4 +33,15 @@ A function that inserts a node as the right-child of another node
 A function that deletes an entire binary tree
     -prototype `void binary_tree_delete(binary_tree_t *tree)`
     -tree is a pointer to the root node of the tree to deleter
-    -if tree is NULL, do nothin
+    -if tree is NULL, do nothing
+
+
+## task 4
+A function that checks if a node is a leaf:
+    -prototype `int binary_tree_is_leaf(conat binary_tree_t *node)`
+    -node is the pointer to the node to check
+    -The function must return 1 if node is a leaf, otherwise 0
+    -if node is NULL, return 0
+
+
+
