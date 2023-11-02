@@ -50,3 +50,11 @@ A function that checks if a given node is root
     -the node is the pointer to the node to check
     -return 1 if node is a root, otherwise, return  0
     -if the node is NULL, return 0
+
+
+## task 6
+A function  that goes through a binary tree using pre-order traversal
+    -prototype: void bnary_tree_preorder(const binary_tree_t * tree, void (* func)(int));
+    -tree is a pointer to the root node of the tree to traverse
+    -func is a pointer to a function call for each node. Value in the node must be passed as a parameter to this function.
+    - if `tree` or `func` is `NULL`, do nothing
